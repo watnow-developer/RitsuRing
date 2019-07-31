@@ -145,10 +145,10 @@
             </objects>
             <point key="canvasLocation" x="2422" y="99"/>
         </scene>
-        <!--LoginVC-->
+        <!--Add Profiele-->
         <scene sceneID="WW1-2Y-LGB">
             <objects>
-                <viewController id="7TU-vm-ZE4" customClass="LoginVC" customModule="firstProfileSetting" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7TU-vm-ZE4" customClass="addProfiele" customModule="firstProfileSetting" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="twN-Xn-TSe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

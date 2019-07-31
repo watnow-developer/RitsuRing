@@ -34,11 +34,15 @@ class PassCodeVC: UIViewController {
         button.layer.borderWidth = 1.0
         button.layer.cornerRadius = 25
         button.layer.borderColor = UIColor.clear.cgColor
+        button.addTarget(self, action: #selector(self.goProf(_:)), for: .touchUpInside)
         view.addSubview(button)
         
     }
     
-    
+    @objc func goProf()
+    {
+        view.endEditing(true)
+    }
     
     
     override func didReceiveMemoryWarning() {
